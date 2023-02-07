@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(237, 236, 190);
+  color: rgb(255, 255, 255);
+  text-align: auto;
+  font-family: "handlee";
+  font-size: 20px;
+}
+
+.box {
+  border: 3px solid rgb(237, 218, 113);
+  border-radius: 15px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 80px;
+  width: 200px;
+}
+
+.father-box {
+  width: 450px;
+  position: absolute;
+  background-color: rgb(89, 119, 89);
+}
+
+.child-box-1 {
+  position: absolute;
+  width: 300px;
+  top: 150px;
+  right: -50px;
+  background-color: #6060b8;
+  z-index: 1;
+}
+.child-box-2 {
+  position: absolute;
+  background-color: rgb(168, 96, 96);
+  width: 250px;
+  top: 250px;
+  right: -210px;
+  z-index: 2;
+}
